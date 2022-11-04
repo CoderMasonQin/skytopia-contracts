@@ -9,7 +9,7 @@ contract FPU is ERC20Burnable, Ownable {
     
     using SafeMath for uint;
 
-    uint256 immutable private MaxSupply;
+    uint256 private MaxSupply;
 
     constructor() ERC20("Flying Processing Unit", "FPU") {
         MaxSupply = 1 * 10 ** 9 * 10 ** uint256(decimals()); // 1B
