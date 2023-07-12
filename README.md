@@ -1,2 +1,2 @@
 # contracts
-Contracts of CryptoSkyland
+Contracts of Skytopia
